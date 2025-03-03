@@ -63,11 +63,13 @@ void key_scan( void )
             }
             if( key4_delay_cnt == 0 )
             {
+                buzzer_open();
                 if( gui_beat.beat_switch == 0 )
                 {
                     key.sync_allow_flag = 1 - key.sync_allow_flag;
                     sync_switch();
                 }
+                buzzer_close();
             }else
             {
                 key4_press(); 

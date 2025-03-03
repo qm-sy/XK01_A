@@ -1,0 +1,12 @@
+{
+    "files.exclude": {
+        "**/.vscode": true
+    },
+    "files.associations": {
+        "gui.h": "c",
+        "modbus_rtu.h": "c",
+        "pic.h": "c",
+        "st7789v2.h": "c",
+        "delay.h": "c"
+    }
+}

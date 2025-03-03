@@ -135,7 +135,7 @@ int main(void)
 	pwm_crl(50,75,75,200);
 	
 	power_crl(70);
-	LCD_Clear(WHITE);
+	LCD_Clear(BLACK);
 	printf("========= code start ========= \r\n");
 	
 	
@@ -162,6 +162,7 @@ int main(void)
 		key_scan();
 		
 		slave_statu_update();
+    
 	} 
   /* USER CODE END 3 */
 }

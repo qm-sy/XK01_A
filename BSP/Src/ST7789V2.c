@@ -14,8 +14,8 @@
 static uint8_t lcd_buf[LCD_Buf_Size];
 volatile uint8_t transmit_complete_flag1 = 0;
 
-uint16_t	POINT_COLOR = BLACK;	//画笔颜色	默认为黑色
-uint16_t	BACK_COLOR 	= WHITE;	//背景颜色	默认为白色
+uint16_t	POINT_COLOR = WHITE;	//画笔颜色	默认为黑色
+uint16_t	BACK_COLOR 	= BLACK;	//背景颜色	默认为白色
 
 
 void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef *hspi)
