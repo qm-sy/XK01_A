@@ -39,7 +39,7 @@
 "..\output\temp.o"
 "..\output\modbus_rtu.o"
 "..\output\delay.o"
---library_type=microlib --strict --scatter "..\Output\XK01_V1.sct"
+--library_type=microlib --strict --scatter "..\Output\XK01_A.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
---list "XK01_V1.map" -o ..\Output\XK01_V1.0
+--list "XK01_A.map" -o ..\Output\XK01_A.axf
